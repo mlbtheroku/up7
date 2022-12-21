@@ -13,10 +13,10 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5625875943:AAHLbVYYvqITKgudHOSh0gfnOeKa7g5r7Kc")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", 17894641))
+    API_HASH = os.environ.get("API_HASH", "4e5b39e5c7c6066e5144dfc50cf466cf")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
@@ -44,11 +44,11 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 300
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://AutoAnime:AutoAnime@autoanime.f8ahzhs.mongodb.net/?retryWrites=true&w=majority")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Rename-Bot-0")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5468192421"))
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     TG_MIN_FILE_SIZE = 2097152000

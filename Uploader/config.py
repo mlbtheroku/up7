@@ -13,7 +13,7 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5625875943:AAHLbVYYvqITKgudHOSh0gfnOeKa7g5r7Kc")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5823556553:AAF8UYitmY8Eg-w77jx4GWm9P3BqTeSYV54")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", 17894641))
     API_HASH = os.environ.get("API_HASH", "4e5b39e5c7c6066e5144dfc50cf466cf")
@@ -52,7 +52,7 @@ class Config(object):
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001866361872")
     TG_MIN_FILE_SIZE = 2097152000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "pro_url_uploader_658_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UTUAIOTest_Bot")
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
     PRO_USERS.append(OWNER_ID)
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
